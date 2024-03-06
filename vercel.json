@@ -5,11 +5,16 @@
         "use": "@vercel/python"
       }
     ],
+    "functions": {
+      "python3.8": {
+        "runtime": "python3.8"
+      }
+    },
     "routes": [
       {
         "src": "/(.*)",
         "dest": "app.py"
       }
     ]
-}
+  }
   
